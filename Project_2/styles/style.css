@@ -1,0 +1,471 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../Poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Manrope-Regular";
+    src: url("../Manrope/static/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Manrope";
+    src: url("/fonts/poppins/Poppins-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html{
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    padding-top: 30px;
+}
+
+.eklenti{
+    font-size: 50px;
+    color: #333232;
+    font-weight: bold;
+    font-family: "Poppins-Bold";
+}
+
+.btn{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+}
+
+.btn-active{
+    background-color: #ff5050;
+    color: white;
+}
+
+.header-container{
+    color: black;
+    background-image: url(../images/spikes.svg);
+    background-repeat: no-repeat;
+    padding: 230px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-h{
+    font-size: 45px;
+    color: #484747;
+    font-family: "Manrope-Regular";
+}
+
+.header-p{
+    font-size: 28px;
+    color: #5c5c5c;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+}
+
+.contact-font{
+    font-size: 18px;
+}
+
+.arrow-icn{
+    font-size: 50px;
+    color: #ff5050;
+    position: relative;
+    top: 150px;
+}
+
+.promotion-container{
+    color: black;
+    padding: 100px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.promotion-container .txt{
+    font-size: 20px;
+    line-height: 40px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.line img{
+    width: 100%;
+}
+
+.txt{
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 2.5rem;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+}
+
+.bank-container{
+    width: 100%;
+    height: auto;
+    background-color: #ff5050;
+}
+
+.clr{
+    background-color: #f5f2f2;
+}
+
+.card-deck{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.card-deck-two{
+    padding-top: 10rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.card-img-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.info-container{
+    color: black;
+    padding: 30px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.think{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.card-img-top img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+.services-container{
+    color: black;
+    padding: 50px 0;
+    margin-top: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    background-image: url(../images/backround_card.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.read{
+    margin-top: 10rem;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.top{
+    margin-top: 10rem;
+}
+
+.frm{
+    
+    border-radius: 30px;
+    border-color: #ff5050;
+    margin-top: 5rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-container{
+    color: black;
+    padding: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;   
+}
+
+.contact-text{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.contact-text .card{
+    border-radius: 3rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.continue {
+    padding-right: 1rem;
+    text-align: right;
+}
+
+
+.contact-text img{
+    width: 5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.icn{
+    padding-top: 20px;
+}
+
+.icon-bord{
+    background-color: #4f86ff;
+}
+
+.card-boddy{
+    background-color: #5c5c5c;
+}
+
+.card-title{
+    font-size: 25px;
+    line-height: 40px;
+    color: #4d4d4d;
+    font-weight: 400;
+    font-family: "Manrope-Regular";
+}
+.frm .card-text{
+    text-align: left;
+}
+
+.textbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.namebox{   
+    opacity: 0.867;
+    width: 28rem;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    border-color: #ff5050;
+}
+
+.namebox::placeholder{
+    font-size: 14px;
+    color: #646161;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+}
+
+.mailbox{
+    opacity: 0.867;
+    width: 28rem;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ff5050;
+}
+
+.mailbox::placeholder{
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+}
+
+.txtbox{
+    opacity: 0.867;
+    width: 60rem;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ff5050;
+}
+
+.txtbox::placeholder{
+    font-size: 14px;
+    color: #f8f8f8;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+}
+
+.detailbox{
+    opacity: 0.867;
+    width: 60rem;
+    height: 15rem;
+    border-radius: 10px;
+    background-color: #ff5050;
+}
+
+.detailbox::placeholder{
+    font-size: 14px;
+    color: #f8f8f8;
+    font-weight: 300;
+    font-family: "Manrope-Regular";
+}
+
+.send-btn{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border-color: #ff5050;
+    box-shadow: 0px 3px #ff5050;
+    background-color: #f7f0f0;
+    opacity: 0.737;
+    font-size: 12px;
+    color: #262323;
+    font-family: "Manrope-Regular";
+}
+
+.footer-bar {
+    color: #fff;
+    margin-top: 5rem;
+    padding: 10px 10px;
+    background-color: #ff5050;
+}
+.txt-right{
+    text-align: right;
+}
+
+/* Responsive Edited */
+
+@media (max-width: 768px) {
+    .eklenti{
+        font-size: 30px;
+    }
+    .header-h{
+      font-size: 25px;
+    }
+    .header-p{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .arrow-icn{
+        font-size: 30px;
+    }
+    .txt{
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    .promotion-container .txt{
+        font-size: 10px;
+        line-height: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .card-title{
+        font-size: 18px;
+        line-height: 2.5rem;
+    }
+    .textbox-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-bar{
+        font-size: 1rem;
+    }
+    .namebox{
+        width: 100%;
+        height: 30px;
+    }
+    .mailbox{
+        width: 100%;
+        height: 30px;
+    }
+    .detailbox{
+        width: 100%;
+        height: 30px;
+    }
+    .txtbox{
+        width: 100%;
+        height: 30px;
+    }
+    .contact-text{
+        width: 100%;
+    }
+    .contact-font{
+        font-size: 14px;
+    }
+    .card-img-top img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 2rem;
+    }
+    .card-deck-two{
+        padding-top: 1.5rem;
+    }
+    div.scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+    }
+    div.scrollmenu .col-3{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+    .is-img{
+        position: relative;
+        left: 2rem;
+
+    }
+    .ing-img{
+        position: relative;
+        left: 11rem;
+    }
+    .garanti-img{
+        position: relative;
+        left: 20rem;
+    }
+    .halk-img{
+        position: relative;
+        left: 30rem;
+        padding-right: 3rem;
+    }
+    .background{
+        background-size: 400rem;
+    }
+}
