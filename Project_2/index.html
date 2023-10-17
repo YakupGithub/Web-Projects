@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,18 +15,18 @@
 
 <!-- Navbar -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand eklenti" href="#">eklenti</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" style="background-image: url(../Project_2/images/h);"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="info-btn"><a class="btn" href="#p">Biz Kimiz</a></li>
-                <li class="services-btn"><a class="btn" href="#s">Hizmetler</a></li>
-                <li class="text-btn"><a class="btn" href="#t">Yazılar</a></li>
-                <li class="contact-btn"><a class="btn btn-active" href="#c">Bize Ulaş</a></li>
+                <li class="info-btn"><a class="btn" href="#p">biz kimiz</a></li>
+                <li class="services-btn"><a class="btn" href="#s">hizmetler</a></li>
+                <li class="text-btn"><a class="btn" href="#t">yazılar</a></li>
+                <li class="contact-btn"><a class="btn btn-active" href="#c">bize ulaş</a></li>
             </ul>
         </div>
     </div>
@@ -35,9 +36,9 @@
 
 <div class="header-container">
     <div class="header">
-        <h1 class="header-h">Sana en iyi hizmeti verebilmek için buradayız!</h1>
-        <h2 class="header-p">Eğer hazırsan başlıyoruz…</h2>
-        <a href="#p"><i class="fa-solid fa-circle-arrow-down arrow-icn"></i></a>
+        <h1 class="header-h res-h">Sana en iyi hizmeti verebilmek için buradayız!</h1>
+        <h2 class="res-p">Eğer hazırsan başlıyoruz…</h2>
+        <img src="images/arrow-red.svg" alt="ok">
     </div>
 </div>
 
@@ -45,7 +46,7 @@
 
 <div class="promotion-container" id="p">
     <div class="header">
-        <h1 class="header-h">Biz Kimiz?</h1>
+        <h1 class="header-b">Biz kimiz?</h1>
         <h2 class="header-p">Fazla uzatmadan, sadece üzerinden geçeceğim..</h2>
         <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Nullam bibendum consectetur nisi, pulvinar dapibus erat rhoncus a. Fusce sed tellus et sapien aliquet bibendum aliquam condimentum erat. Donec ut malesuada enim, ut ultricies risus. Quisque tristique lacus vestibulum, volutpat eros ut, fringilla nibh. Curabitur vel sodales lorem, vel gravida tellus. Quisque bibendum facilisis imperdiet. Nunc congue tempus mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt vehicula tellus, in sodales leo accumsan quis. Sed tempor leo quis est volutpat auctor. Pellentesque lacinia ex nec metus maximus, in luctus erat cursus. Mauris rhoncus augue id ligula sollicitudin dictum. Fusce vehicula ligula purus, vitae scelerisque nisl ultricies aliquet.</p>
     </div>
@@ -53,19 +54,19 @@
 
 <!-- Banks -->
 
-<div class="bank-container" align="center">
+<div class="bank-container">
   <div class="scrollmenu">
     <div class="row">
-        <div class="col-3">
+        <div class="col-1">
             <img class="is-img" src="images/is-bankasi-png.svg" alt="isbank">
         </div>
-        <div class="col-3">
+        <div class="col-1">
             <img class="ing-img" src="images/ing-png.svg" alt="ingbank">
         </div>
-        <div class="col-3">
+        <div class="col-1">
             <img class="garanti-img" src="images/garanti-bbva-png.svg" alt="garantibank">
         </div>
-        <div class="col-3">
+        <div class="col-1">
             <img class="halk-img" src="images/halkbank-png.svg" alt="halkbankasi">
         </div>
     </div>
@@ -77,169 +78,169 @@
 
 <div class="services-container" id="s">
   <div class="header">
-    <h1 class="header-h">Hizmetler</h1>
+    <h1 class="header-s">Hizmetler</h1>
     <h2 class="header-p">Verdiğimiz tüm hizmetler.</h2>
   </div>
 </div>
 
 <!-- Services -->
-<div class="container">
+<div class="container-fluid kartlar">
   <div class="card-deck row">
     <div class="card col-md-4 clr txt">
       <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
       <div class="line"><img src="images/Line 1.svg" alt="line"></div>
       <div class="card-body">
-        <h5 class="card-title">Tasarım</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+        <h5 class="card-title tsr">Tasarım</h5>
+        <p class="card-text t-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
       </div>
     </div>
     <div class="card col-md-4 clr txt">
       <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
       <div class="line"><img src="images/Line 1.svg" alt="line"></div>
       <div class="card-body">
-        <h5 class="card-title">Tasarım</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+        <h5 class="card-title tsr">Tasarım</h5>
+        <p class="card-text t-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
       </div>
     </div>
     <div class="card col-md-4 clr txt">
       <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
       <div class="line"><img src="images/Line 1.svg" alt="line"></div>
       <div class="card-body">
-        <h5 class="card-title">Tasarım</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-      </div>
-    </div>
-    <div class="card-deck-two row">
-      <div class="card col-md-4 clr txt">
-        <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
-        <div class="line"><img src="images/Line 1.svg" alt="line"></div>
-        <div class="card-body">
-          <h5 class="card-title">Tasarım</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-        </div>
-      </div>
-      <div class="col-md-4 card clr txt">
-        <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
-        <div class="line"><img src="images/Line 1.svg" alt="line"></div>
-        <div class="card-body">
-          <h5 class="card-title">Tasarım</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-        </div>
-      </div>
-      <div class="col-md-4 card  clr txt">
-        <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
-        <div class="line"><img src="images/Line 1.svg" alt="line"></div>
-        <div class="card-body">
-          <h5 class="card-title">Tasarım</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-        </div>
+        <h5 class="card-title tsr">Tasarım</h5>
+        <p class="card-text t-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
       </div>
     </div>
   </div>
-</div>
-
-
-<!-- Header to Info -->
-
-<div class="info-container" id="t">
-  <div class="header">
-    <h1 class="header-h">Yazılar</h1>
-    <h2 class="header-p">Yazdığımız bazı yazılar</h2>
+  <div class="card-deck row-two row">
+    <div class="card col-md-4 clr txt">
+      <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
+      <div class="line"><img src="images/Line 1.svg" alt="line"></div>
+      <div class="card-body">
+        <h5 class="card-title tsr">Tasarım</h5>
+        <p class="card-text t-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+      </div>
+    </div>
+    <div class="col-md-4 card clr txt">
+      <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
+      <div class="line"><img src="images/Line 1.svg" alt="line"></div>
+      <div class="card-body">
+        <h5 class="card-title tsr">Tasarım</h5>
+        <p class="card-text t-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+      </div>
+    </div>
+    <div class="col-md-4 card  clr txt">
+      <div class="card-img-top"><img src="images/firca.png" alt="brush"></div>
+      <div class="line"><img src="images/Line 1.svg" alt="line"></div>
+      <div class="card-body">
+        <h5 class="card-title tsr">Tasarım</h5>
+        <p class="card-text t-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+      </div>
+    </div>
   </div>
 </div>
 
 <!-- Info -->
 <div class="background">
-  <div class="container read">
-    <div class="row">
+  <div class="info-container" id="t">
+    <div class="header">
+      <h1 class="header-s">Yazılar</h1>
+      <h2 class="header-p">Yazdığımız bazı yazılar</h2>
+    </div>
+  </div>
+  <div class="container-fluid read">
+    <div class="row card-container">
+      <div class="row card-space">
         <div class="col-md-6">
-            <div class="card frm txt" style="max-width: 540px;">
-                <div class="row no-gutters">
-                    <div class="col think"><img src="images/dusunenadam.svg" alt="Resim 1"></div>
-                    <div class="col">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunucularımız yenilendi!</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-                            <p class="continue"><small class="text-muted continue">devamını oku -></small></p>
-                        </div>
-                    </div>
+          <div class="card txt">
+            <div class="row no-gutters">
+              <div class="col think"><img src="images/dusunenadam.svg" alt="Resim 3"></div>
+              <div class="col">
+                <div class="card-body">
+                  <h5 class="title-start card-title">Sunucularımız yenilendi!</h5>
+                  <p class="card-text d-text" id="deneme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                  <p class="continue text-muted">devamını oku -></p>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card frm txt" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col think"><img src="images/dusunenadam.svg" alt="Resim 2"></div>
-                    <div class="col">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunucularımız yenilendi!</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-                            <p class="continue"><small class="text-muted continue">devamını oku -></small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card frm txt" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col think"><img src="images/dusunenadam.svg" alt="Resim 3"></div>
-                  <div class="col">
-                      <div class="card-body">
-                          <h5 class="card-title">Sunucularımız yenilendi!</h5>
-                          <p class="card-text" id="deneme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-                          <p class="continue"><small class="text-muted continue">devamını oku -></small></p>
-                      </div>
-                  </div>
               </div>
+            </div>
           </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card frm txt" style="max-width: 700px;">
+        </div>
+        <div class="col-md-6">
+          <div class="card txt">
             <div class="row no-gutters">
               <div class="col think"><img src="images/dusunenadam.svg" alt="Resim 4"></div>
-                <div class="col">
-                    <div class="card-body deneme">
-                        <h5 class="card-title">Sunucularımız yenilendi!</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
-                        <p class="continue"><small class="text-muted">devamını oku -></small></p>
-                    </div>
+              <div class="col">
+                <div class="card-body deneme">
+                  <h5 class="title-start card-title">Sunucularımız yenilendi!</h5>
+                  <p class="card-text d-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                  <p class="continue text-muted">devamını oku -></p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="row card-space">
+        <div class="col-md-6">
+          <div class="card txt">
+            <div class="row no-gutters">
+              <div class="col think"><img src="images/dusunenadam.svg" alt="Resim 3"></div>
+              <div class="col">
+                <div class="card-body">
+                  <h5 class="title-start card-title">Sunucularımız yenilendi!</h5>
+                  <p class="card-text d-text" id="deneme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                  <p class="continue text-muted">devamını oku -></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card txt">
+            <div class="row no-gutters">
+              <div class="col think"><img src="images/dusunenadam.svg" alt="Resim 4"></div>
+              <div class="col">
+                <div class="card-body deneme">
+                  <h5 class="title-start card-title">Sunucularımız yenilendi!</h5>
+                  <p class="card-text d-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                  <p class="continue text-muted">devamını oku -></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>  
+  </div>
 </div>
 
 <!-- Header to Contact -->
 
 <div class="contact-container" id="c">
   <div class="header">
-    <h1 class="header-h">Bize ulaşın</h1>
+    <h1 class="header-s">Bize ulaşın</h1>
     <h2 class="header-p">Bizimle iletişime geçmenin yolları.</h2>
   </div>
 </div>
 
 <!-- Call, Location, Mail -->
 
-<div class="container contact-text">
-  <div class="row" align="center">
-      <div class="col-md-4">
+<div class="container-fluid contact-text">
+  <div class="row">
+      <div class="col-md-3">
         <img src="images/call.svg" alt="call">
-        <div class="card clr">
+        <div class="card clr lc">
           <div class="card-body"><p class="contact-font">+44 079 8821 0350</p></div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <img src="images/location.svg" alt="location">
-          <div class="card clr">
-              <div class="card-body"><p class="contact-font">89 The Drive LEEDS LS47 5DW</p></div>
+          <div class="card clr lc">
+              <div class="card-body location"><p class="contact-font">89 The Drive LEEDS LS47 5DW</p></div>
           </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <img src="images/mail.svg" alt="mail">
-          <div class="card clr">
+          <div class="card clr lc">
               <div class="card-body"><p class="contact-font">support@eklenti.co</p></div>
           </div>
       </div>
@@ -256,21 +257,22 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" class="form-control namebox" placeholder="İsim Soyisim">
+              <input type="text" class="form-control namebox" placeholder="isim soyisim">
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="email" class="form-control mailbox" placeholder="E-Posta">
+              <input type="email" class="form-control mailbox" placeholder="e-posta">
             </div>
           </div>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control txtbox" placeholder="Mesaj Konusu">
+          <input type="text" class="form-control txtbox" placeholder="mesaj konusu">
         </div>
         <div class="form-group">
-          <textarea class="form-control detailbox" rows="5" placeholder="Mesaj Detayı"></textarea>
+          <textarea class="form-control detailbox" rows="10" placeholder="mesaj detayı"></textarea>
           <button type="submit" class="btn btn-danger float-right send-btn">mesajı gönder</button>
+        </div>
       </form>
     </div>
   </div>
@@ -280,9 +282,9 @@
 
 <div class="footer-bar">
   <div class="container-fluid bar-container">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-          <div class="col-6 footer-bar-txt">Tüm hakları saklı değildir.</div>
+          <div class="col-6 footer-bar-txt txt-left">Tüm hakları saklı değildir.</div>
           <div class="col-6 footer-bar-txt txt-right">patrick2dev</div>
       </div>
       </div>
@@ -295,3 +297,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!-- Yakup Gündüz -->
