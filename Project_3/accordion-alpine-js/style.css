@@ -1,0 +1,102 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(76, 76, 203);
+}
+
+.container {
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    float: left;
+    margin-right: 10px;
+}
+
+.accordion{
+    max-width: 1000px
+}
+
+.accordion .contentBx{
+    position: relative;
+    margin: 10px 20px;
+    border-radius: 3px;
+}
+
+.accordion .contentBx .label{
+    position: relative;
+    padding: 10px;
+    background-color: #c6e2ff;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: 10px;
+}
+.container p{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container img
+{
+    margin: 0;
+}
+
+.accordion .contentBx .label::before{
+    content: "+";
+    position: absolute;
+    bottom: 15%;
+    right: 20px;
+    transform: translate(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .contentBx .label.active::before{
+    content: '-';
+}
+
+.contentBx img{
+    width: 200px;
+    height: 100px;
+}
+
+.accordion .contentBx .container .content{
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .contentBx .container.active{
+    height: 100px;
+    transition: 0.5s;
+}
+
+@media (max-width:558px)
+{
+    .container
+    {
+        flex-direction: column;
+        justify-content: start;
+    }
+    .accordion .contentBx .container.active
+    {
+        height: 300px;
+    }
+    .container img
+    {
+        width: 100%;
+    }
+}

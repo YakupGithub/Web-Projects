@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alpine.js Header</title>
+</head>
+<body x-data="{ isMenuOpen: false, isSubMenuOpen: false }">
+    <header>
+        <div class="flex items-center space-x-4">
+            <div class="menu-button" @click="isSubMenuOpen = !isSubMenuOpen">
+                <button>Brand</button>
+                <button>Link</button>
+                <button>Link</button>
+                <div class="menu">
+                    <button>Dropdown</button>
+                    <div class="menu-content" x-show="isSubMenuOpen">
+                        <button class="drp">Action</button>
+                        <button class="drp">Another Action</button>
+                        <button class="drp">Something else here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+            <div class="menu-button" @click="isMenuOpen = !isMenuOpen">
+                <button>Link</button>
+                <div class="menu">
+                    <button>Dropdown</button>
+                    <div class="menu-content" x-show="isMenuOpen">
+                        <button class="drp">Action</button>
+                        <button class="drp">Another Action</button>
+                        <button class="drp">Something else here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

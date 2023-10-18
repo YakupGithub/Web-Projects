@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(110, 175, 255);
+}
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.drp{
+    padding: 0;
+    color: #333;
+    text-align: left;
+    font-size: 10px;
+}
+.menu {
+    position: relative;
+}
+.menu-content {
+    width: 95px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 100%;
+    right: 0;
+    transition: 0.5s;
+}
+.menu:hover .menu-content {
+    display: block;
+}
+.menu-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
