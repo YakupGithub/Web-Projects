@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailbox Alpine.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body x-data="{ activeButton: null, message: '' }">
+    <div class="container">
+        <div class="box">
+            <div class="button-container">
+                <button class="btn" @click="activeButton = 'features'; message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem turpis, fringilla a faucibus vitae, bibendum a lacus. Vivamus arcu massa, eleifend congue vehicula sed, facilisis vitae justo.'"
+                    :class="{ 'active': activeButton === 'features' }">Features</button>
+                <button class="btn" @click="activeButton = 'details'; message = 'Proin pretium ex vitae dolor pharetra consequat. In aliquam condimentum diam eget mollis. Donec nec iaculis tortor. Cras maximus condimentum sapien, ut tempor nisl varius vitae. Cras semper suscipit venenatis. Maecenas posuere luctus lectus. In nibh ligula, euismod eu malesuada id, porta et ante.'"
+                    :class="{ 'active': activeButton === 'details' }">Details</button>
+            </div>
+        </div>
+        <div class="message-container">
+            <div x-show="message" class="message" x-text="message"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.x.x/dist/alpine.js" defer></script>
+</body>
+</html>
+

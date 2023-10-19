@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Alpine.js Header</title>
+    <title>Dropdown Alpine.js</title>
 </head>
 <body x-data="{ isMenuOpen: false, isSubMenuOpen: false }">
     <header>
         <div class="flex items-center space-x-4">
             <div class="menu-button" @click="isSubMenuOpen = !isSubMenuOpen">
-                <button>Brand</button>
-                <button>Link</button>
-                <button>Link</button>
+                <button class="mn">Brand</button>
+                <button class="mn">Link</button>
+                <button class="mn">Link</button>
                 <div class="menu">
-                    <button>Dropdown</button>
+                    <button class="mn">Dropdown<i class="arrow"> ▼</i></button>
                     <div class="menu-content" x-show="isSubMenuOpen">
                         <button class="drp">Action</button>
                         <button class="drp">Another Action</button>
@@ -25,12 +25,13 @@
         </div>
         <div class="flex items-center space-x-4">
             <div class="menu-button" @click="isMenuOpen = !isMenuOpen">
-                <button>Link</button>
+                <button class="mn">Link</button>
                 <div class="menu">
-                    <button>Dropdown</button>
+                    <button class="mn">Dropdown<i class="arrow"> ▼</i></button>
                     <div class="menu-content" x-show="isMenuOpen">
                         <button class="drp">Action</button>
                         <button class="drp">Another Action</button>
+                        <button class="drp stick">Something else here</button>
                         <button class="drp">Something else here</button>
                     </div>
                 </div>
