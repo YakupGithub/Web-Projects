@@ -1,6 +1,6 @@
 <h3>Project_1</h3>
 In this project, I developed a simple form screen that allows users to subscribe to our email newsletter. This project was an excellent starting point for learning the basics of HTML and CSS.
-
+<br>
 
 <img width="1210" alt="Ekran Resmi 2023-12-19 16 17 48" src="https://github.com/YakupGithub/Web-Projects/assets/137324492/161eb7ed-a903-4592-9249-ed812775f43a">
 
