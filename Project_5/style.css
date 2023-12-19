@@ -1,0 +1,12 @@
+.map-container{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    overflow: hidden;
+    position: relative;
+    border: 15px solid black;
+}
+
+.map{
+    position: absolute;
+    cursor: grab;
+}
